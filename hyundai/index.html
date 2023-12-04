@@ -53,7 +53,7 @@
         <!-- The slideshow -->
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <video loop autoplay muted>
+            <video loop autoplay muted playsinline>  <!-- playsinline : 아이폰 자동재생 오류 이슈 관련 태그 -->
                 <source src="img/santafe-pc.mp4" type="video/mp4">
             </video>
             <h2 class="caption">
@@ -62,11 +62,11 @@
             </h2>
           </div>
           <div class="carousel-item">
-            <video loop autoplay muted>
+            <video loop autoplay muted playsinline>
             <source src="img/worldcup-pc.mp4" type="video/mp4">
           </div>
           <div class="carousel-item">
-            <video loop autoplay muted>
+            <video loop autoplay muted playsinline>
             <source src="img/pony-pc.mp4" type="video/mp4">
           </div>
         </div>
@@ -95,7 +95,7 @@
         <!-- The slideshow -->
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <video loop autoplay muted>
+            <video loop autoplay muted playsinline>
                 <source src="img/santafe-m.mp4" type="video/mp4">
             </video>
             <h2 class="caption">
@@ -104,12 +104,14 @@
             </h2>
           </div>
           <div class="carousel-item">
-            <video loop autoplay muted>
+            <video loop autoplay muted playsinline>
             <source src="img/worldcup-m.mp4" type="video/mp4">
+            </video>
           </div>
           <div class="carousel-item">
-            <video loop autoplay muted>
+            <video loop autoplay muted playsinline>
             <source src="img/pony-m.mp4" type="video/mp4">
+            </video>
           </div>
         </div>
       
